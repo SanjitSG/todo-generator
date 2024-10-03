@@ -1,7 +1,7 @@
 # Todo Generator
 
 ## Objective
-The **Todo Generator** is designed as a learning tool for understanding network calls, fetching data, and rendering components in React based on dynamic data. It demonstrates how to fetch a list of todos and retrieve a single todo based on user input.
+The **Todo Generator** is designed as a learning tool for understanding network calls, fetching data, and rendering components in React based on dynamic data. It is designed to learn fetch a list of todos and retrieve a single todo based on user input.
 
 ## Features
 - Fetch a list of todos in JSON format.
