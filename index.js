@@ -24,6 +24,10 @@ const generateRandomTodos = () => {
   return shuffledTodos.slice(0, numberOfTodos); // Return a random subset
 };
 
+app.get("/", (req, res) => {
+  res.send('<h1>Todo-generator Home page!</h1>');
+});
+
 app.get("/todos", (req, res) => {
   // generate random set of todos
   const todos = generateRandomTodos();
